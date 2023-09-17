@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body> 
+    <nav class="nav__container">
+        <div class="logo">Tshenolo Kabikwa</div>
+            <ul class="nav__links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav__humburger-menu">
+        <div class="logo">Tshenolo Kabikwa</div>
+        <div class="nav__hum-menu">
+            <div class="nav__hum-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="hum-menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="contacts" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/keyboard_notepad.jpg" alt="">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h5 class="title">Tshenolo Kabikwa</h5><br>
+            <p class="section__text__p1">An individual with strong passion for coding,<br> currently seeking to transition into Software Development roles<br> as a Front-end, Back-end or FullStack Developer.</p><br>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#Contacts'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <i class="uil uil-linkedin" id="icon" onclick="location.href='https:/linkedin.com/'"></i>
+                <i class="uil uil-github" id="icon" onclick="location.href='https:/github.com/'"></i>
+            </div>
+        </div>
+    </section>
+    <section id="about"> 
+        <p class="section__text__p1">Get to know more</p>
+        <h5 class="title">About me</h5><br>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <i class="uil uil-briefcase-alt" class="icon"></i>
+                        <h3>Experience</h3>
+                        <p>*1 year  :Front-end Coding</p>
+                        <p>*7 years :Head of Customer support</p>
+                        <p>*11 years:Implementation Manager</p>
+                        <p>*1 year  :IT helpdesk Technician</p>
+                    </div>
+                <div class="details-container">
+                    <i class="uil uil-book-open" class="icon"></i>
+                    <h3>Education</h3>
+                    <p>-Computer Science Diploma</p> 
+                </div>
+                <div class="details-container-badges">
+                    <i class="uil uil-award-alt" class="icon"></i>
+                    <h3>Badges</h3>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="87df225d-5836-4e37-a537-4943bb577eae" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ce50cb9a-0069-4b8f-8926-f04db610e9de" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e85ec287-2b1b-4da7-a9b6-e5febcc77d0e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                </div>
+                </div>
+                </div>              
+            </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#Experience'"></i>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore my</p><br>
+        <h5 class="title">Skills</h5>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Front-end Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>Reactjs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>                      
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Back-end Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>    
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>Django</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>Github</h3>
+                                <p>Intermediates</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>Nodejs</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="uil uil-check-circle" class="icon"></i>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#projects'"></i>
+    </section>  
+    <section id="projects">
+        <p class="section__text__p1">Browse my recent</p><br>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Green salad.jpg" alt="" class="project-img">
+            </div>
+            <h4 class="experience-sub-title project-title">healthy</h4>
+            <p>healthyplans.netlify.app</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https:/github.com/tshenoloKab/healthy'">Github</button>
+            </div>
+           </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/lily.jpg" alt="" class="project-img">
+            </div>
+            <h4 class="experience-sub-title project-title">eflorist</h4>
+            <p>eflorist.netlify.app</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https:/github.com/tshenoloKab/eflorist'">Github</button>
+            </div>
+           </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/shopping.jpg" alt="" class="project-img">
+            </div>
+            <h4 class="experience-sub-title project-title">@tk-grocery-app</h4>
+            <p>e-grocery-list.netlify.app</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1 project-btn" onclick="location.href='https:/github.com/tshenoloKab/grocery'">Github</button>
+            </div>
+           </div></div>
+        </div>
+        <i class="uil uil-angle-double-down" id="arrow" onclick="location.href='./#projects'"></i>
+    </section>
+    <section id="contacts">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="uil uil-envelope-edit" id="icon"></i>
+                <p><a href="mailto:">tckabikwa@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="uil uil-linkedin" id="icon"></i>
+                <p><a href="https:/linkedin.com/in/tshenolo-kabikwa">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                    <ul class="nav__links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p>Copyright&copy;2023 Tshenolo Kabikwa. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
